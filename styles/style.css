@@ -6,15 +6,17 @@ body{
     background-color: black;
     overflow-x: hidden;
 }
-div{
-    height: 65px;
+.w-100{
+    height: 600px;
 }
 .logo{
     cursor: pointer;
     margin-right: auto;
     padding-top: none;
 }
-
+.carousel-inner{
+    width: 100%;
+}
 
 button{
     font-family: "Poppins", sans-serif;
