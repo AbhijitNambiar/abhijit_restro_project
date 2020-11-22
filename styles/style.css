@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins&family=Bungee+Shade&family=Piedra&family=Goldman&family=Josefin+Sans&display=swap');
+@media(max-width: 1349px){}
+body{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow-x: hidden;
+}
+div{
+    height: 65px;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    padding-top: none;
+}
+
+
+button{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 15px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 3%;
+    color: white;
+    background-color: black;
+}
+
+
+
+.bar ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    color: white;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    z-index: 999;
+}
+.bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.bar ul li a:hover{
+    color: cyan;
+}
+
+.drop{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 700px;
+    padding: 0px;
+}
+.banner img{
+    width: 100%;
+    height: 700px;
+}
+.container{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub{
+    position: absolute;
+    background-color: none;
+    color: white;
+
+}
+
+.drop li a{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    background-color: gray;
+    padding: 15px;
+    font-size: 17px;
+    list-style-type: none;
+}
+
+.bar ul li:hover .drop{
+    display: block;
+    overflow: visible;
+}
+
+.container{
+    height: 150px;
+}
+
+.fest{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    background-color: black;
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.fest h2{
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 20px;
+}
+.feed{
+    background-color: black;
+    color: green;
+    height: 360px;
+    justify-content: center;
+    padding: none;
+    font-size: 1.2em;
+}
+.feed h2{
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 20px;
+}
+.loc{
+    background-color: black;
+    color: green;
+    width: 100%;
+    height: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.loc h2{
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 20px;
+}
+
+.end ul li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "Piedra", sans-serif;
+}
+footer{
+    height: 300px;
+    background-color: black;
+}
+.footerbox{
+    width: 1349px;
+    float: left;
+    font-family: "Josefin Sans",sans-serif;
+    padding-left: 100px;
+}
+.footerbox h2{
+    padding-top: 40px;
+    color: white;
+}
+.footerbox ul{
+    margin: 0px;
+    list-style-type: none;
+}
+.footerbox ul > li > a{
+    display: inline-block;
+    font-size: medium;
+    color: green;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.social i{
+    text-align: center;
+    width: 40px;
+    height: auto;
+}
+.copy{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    background-color: crimson;
+    font-size: medium;
+    color:black;
+}
+.copy p{
+    padding-top: 10px;
+}
+.sec{
+    background-color: black;
+    height: 600px;
+}
+section h2{
+    font-family: "Bungee Shade";
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+.sec p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.col-4 img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+    border: white 4px solid;
+}
+
+.col-4 button{
+    padding: 4px 4px 4px 4px;
+    border-radius: 50px;
+}
+.about{
+    background-color: black;
+    height: 450px;
+    font-family: "Piedra", sans-serif;
+    color: green;
+}
+.about h2{
+    padding-bottom: 20px;
+    
+}
+.about h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.about h4{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.cont{
+    background-color: black;
+    height: 800px;
+    font-family: "Piedra", sans-serif;
+    color: green;
+}
+.cont h2{
+    padding-bottom: 20px;
+}
+.cont h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Josefin Sans",sans-serif;
+
+}
+.cont h4{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.cont td{
+    padding-left: 20px;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    height: 260px;
+    display: flex;
+    box-shadow: 0 0 30px;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid green;
+    padding: 5px;
+    color: white;
+    font-family: "Josefin Sans",sans-serif;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 149px;
+}
+
+#btn{
+    background-color: cyan;
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+
+.book{
+    background-color: black;
+    height: 600px;
+}
+.book h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.reg_form{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    height: 490px;
+    display: flex;
+    box-shadow: 0 0 30px
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.fields input{
+    margin: 10px 0;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 900px;
+}
+#bttn{
+    border-radius: 10px;
+    background-color: teal;
+    padding-bottom: 6px;
+    font-family: "Josefin Sans", sans-serif;
+}
+#sel{
+    margin: 10px 0;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 900px;
+}
+.fields h6{
+    color: white;
+}
